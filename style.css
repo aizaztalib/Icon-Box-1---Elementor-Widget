@@ -1,0 +1,173 @@
+/*--------------------------------------------------------------
+## Icon Box
+--------------------------------------------------------------*/
+.icon-box {
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+}
+.icon-box .icon-main {
+  display: inline-block;
+  color: #C19977;
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  text-align: center;
+  margin-bottom: 17px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.icon-box .icon-main i {
+  line-height: 90px;
+  font-size: 40px;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+}
+.icon-box .icon-main svg {
+  vertical-align: middle;
+  width: 40px;
+  fill: #C19977;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+}
+.icon-box .title-box {
+  font-size: 20px;
+  margin-bottom: 15px;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+}
+.icon-box .title-box a {
+  color: #1a1b1e;
+}
+.icon-box p:last-child {
+  margin-bottom: 0;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+}
+.icon-box .link-details {
+  margin-top: 18px;
+}
+
+/* icon box 1*/
+.icon-box-1 {
+  position: relative;
+  padding: 48px 35px 40px;
+  box-shadow: 8px 8px 30px 0 rgba(0, 0, 0, 0.12);
+  -webkit-box-shadow: 8px 8px 30px 0 rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 8px 8px 30px 0 rgba(0, 0, 0, 0.12);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.icon-box-1 .icon-main {
+  background: rgb(193, 153, 119, 0.1);
+}
+
+.hover-dark-yes .icon-box-1:hover {
+  background: #262832;
+}
+.hover-dark-yes .icon-box-1:hover .icon-main {
+  background: rgba(255, 255, 255, 0.1);
+}
+.hover-dark-yes .icon-box-1:hover .title-box,
+.hover-dark-yes .icon-box-1:hover .title-box a {
+  color: #fff;
+}
+.hover-dark-yes .icon-box-1:hover p {
+  color: #ccc;
+}
+.hover-dark-yes .icon-box-1:hover:after {
+  opacity: 0;
+}
+
+.with-border-yes .icon-main {
+  position: relative;
+  margin-top: 15px;
+}
+.with-border-yes .icon-main .circle-animate {
+  position: absolute;
+  width: 119px;
+  height: 119px;
+  left: -15px;
+  top: -15px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  -webkit-animation: circle_animation 2s infinite linear;
+  -moz-animation: circle_animation 2s infinite linear;
+  -o-animation: circle_animation 2s infinite linear;
+  animation: circle_animation 2s infinite linear;
+  -webkit-animation-play-state: paused;
+  -moz-animation-play-state: paused;
+  -o-animation-play-state: paused;
+  animation-play-state: paused;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.with-border-yes .icon-main .circle-animate:after {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background: #C19977;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: -6px;
+  margin-top: -6px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.with-border-yes .content-box {
+  margin-top: 15px;
+}
+.with-border-yes.pos-dot-2 .icon-main .circle-animate {
+  -webkit-animation: circle_animation_2 2s infinite linear;
+  -moz-animation: circle_animation_2 2s infinite linear;
+  -o-animation: circle_animation_2 2s infinite linear;
+  animation: circle_animation_2 2s infinite linear;
+  -webkit-animation-play-state: paused;
+  -moz-animation-play-state: paused;
+  -o-animation-play-state: paused;
+  animation-play-state: paused;
+}
+.with-border-yes.pos-dot-3 .icon-main .circle-animate {
+  -webkit-animation: circle_animation_3 2s infinite linear;
+  -moz-animation: circle_animation_3 2s infinite linear;
+  -o-animation: circle_animation_3 2s infinite linear;
+  animation: circle_animation_3 2s infinite linear;
+  -webkit-animation-play-state: paused;
+  -moz-animation-play-state: paused;
+  -o-animation-play-state: paused;
+  animation-play-state: paused;
+}
+.with-border-yes.pos-dot-4 .icon-main .circle-animate {
+  -webkit-animation: circle_animation_4 2s infinite linear;
+  -moz-animation: circle_animation_4 2s infinite linear;
+  -o-animation: circle_animation_4 2s infinite linear;
+  animation: circle_animation_4 2s infinite linear;
+  -webkit-animation-play-state: paused;
+  -moz-animation-play-state: paused;
+  -o-animation-play-state: paused;
+  animation-play-state: paused;
+}
+.with-border-yes .icon-box-1:hover .icon-main .circle-animate {
+  -webkit-animation-play-state: running;
+  -moz-animation-play-state: running;
+  -o-animation-play-state: running;
+  animation-play-state: running;
+}
